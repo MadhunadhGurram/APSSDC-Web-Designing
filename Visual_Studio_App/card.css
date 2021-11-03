@@ -1,0 +1,70 @@
+.cardbody{
+    border: 3px solid black;
+    padding: 1%;
+    margin: 1%;
+    font-size: 20px;
+    width: 28%;
+    border-radius: 5%;
+    text-align: center;
+}
+.cardbody img{
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+}
+s{
+    color: red;
+
+}
+h3{
+    color: blue
+
+}
+button{
+    padding: 2%;
+    background-color: blue;
+    color: white;
+
+}
+
+@media only screen and (min-width:320px) and (max-width:480px){
+    .cardbody{
+        border: 3px solid black;
+        padding: 1%;
+        margin: 1%;
+        font-size: 20px;
+        width: 90%;
+        border-radius: 5%;
+        text-align: center;
+    }
+    .cardbody img{
+        width: 60%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    s{
+        color: red;
+    
+    }
+    h3{
+        color: blue
+    
+    }
+    button{
+        padding: 2%;
+        background-color: blue;
+        color: white;
+    
+    }
+
+}
